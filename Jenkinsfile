@@ -64,7 +64,7 @@ pipeline {
 	   stage('Jmeter'){
          steps{
 	    // cd 	 C:\Program Files\apache-jmeter-5.3\bin
-            bat label: 'jmeter',script:'C:\\apache-jmeter-5.3\\bin\\jmeter -n -Jjmeter.save.saveservice.output_format=xml -t C:\\Users\\kanram\\Desktop\\POD2\\employee-report.jmx -l C:\\Users\\kanram\\Desktop\\POD2\\results\\Test-emp.jtl'
+            bat label: 'jmeter',script:'C:\\apache-jmeter-5.3\\bin\\jmeter -n -Jjmeter.save.saveservice.output_format=xml -t C:\\Users\\natreddy\\Documents\\folder_for_jmeter\\SpringBootDataJpaApp -l C:\\Users\\natreddy\\Documents\\folder_for_jmeter\\Test-emp.jtl'
          
 	 }
 	}
